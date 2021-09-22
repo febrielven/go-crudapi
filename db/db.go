@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	_ "github.com/go-chi/chi"
+	_ "github.com/lib/pq"
 )
 
 const (

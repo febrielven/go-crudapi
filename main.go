@@ -36,7 +36,7 @@ func main() {
 	server := &http.Server{
 		Handler: httpHandler,
 	}
-
+	server.Serve(listener)
 	go func() {
 		server.Serve(listener)
 	}()
